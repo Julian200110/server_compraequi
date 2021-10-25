@@ -2,9 +2,9 @@ const express = require("express");
 const cors = require("cors");
 const port = 8080;
 const app = express();
-const products = require("./routes/Administrador.routes");
-const User = require("./routes/Usuarios.router");
-const Ventas = require("./routes/Ventas.router");
+const products = require("./routes/administrador.routes");
+const User = require("./routes/usuarios.routes");
+const Ventas = require("./routes/ventas.routes");
 
 //connecting with DB
 require("./config/database");
